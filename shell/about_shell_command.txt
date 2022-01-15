@@ -1,0 +1,41 @@
+pwdとは
+    現在のディレクトリ (ワーキングディレクトリ) の名前を表示する
+    ex) $ pwd
+    /Users/junya/app/GA/bootcamp
+
+cdとは
+    ディレクトリを移動する
+    ex) $ cd ..
+    一つ上の階層に移動する
+
+lsとは
+    ディレクトリ内のファイルを一覧表示する
+    ex) $ ls
+    bootcamp
+    ex) $ ls -la
+    drwxr-xr-x   6 junya  staff  192  1 15 22:57 .
+    drwxr-xr-x   3 junya  staff   96  1 12 18:12 ..
+    drwxr-xr-x  14 junya  staff  448  1 15 22:57 .git
+    -rw-r--r--   1 junya  staff   11  1 15 19:16 README.md
+    drwxr-xr-x   3 junya  staff   96  1 15 19:16 log
+    drwxr-xr-x   3 junya  staff   96  1 15 23:00 shell
+
+mkdirとは
+    ディレクトリを作成する
+    ex) $ mkdir bootcamp
+    bootcampディレクトリが作成される
+
+touchとは
+    ファイルを作成する/ファイルのタイムスタンプを作成する
+    ex) $ touch bootcamp.txt
+    bootcamp.txtファイルが作成される
+
+rmとは
+    ファイルを削除する
+    ex) $ rm bootcamp.txt
+    bootcamp.txtファイルが削除される
+    
+mvとは
+    ファイルを移動する
+    ex) $ mv bootcamp.txt bootcamp
+    bootcamp.txtファイルがbootcampディレクトリに移動される
