@@ -1,8 +1,8 @@
 #!/bin/zsh
-NUMBER_1=10
-NUMBER_2=50
-if [ $NUMBER_1 - $NUMBER_2 ]; then
-  echo "$NUMBER_1は$NUMBER_2よりも大きい"
+number_1=10
+number_2=50
+if [ $number_1-$number_2 ]; then
+  echo "$number_1は$number_2よりも大きい"
 else
-  echo "$NUMBER_1は$NUMBER_2よりも小さい"
+  echo "$number_1は$number_2よりも小さい"
 fi
