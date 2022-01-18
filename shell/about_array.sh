@@ -10,5 +10,5 @@ echo ${array[3]}
 # ${array[*]} 「*」でもできた
 for i in ${array[@]}
 do
-    echo $i
+  echo $i
 done
