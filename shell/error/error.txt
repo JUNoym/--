@@ -1,0 +1,1 @@
+./stderror.sh: line 2: hoge: command not found
